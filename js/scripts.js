@@ -47,8 +47,7 @@ function createTeamMember(x, y, z){
     let newMember = {
         name : x,
         role : y,
-        img : `
-            <img src="${z}">
+        img : `<img src="${z}">
         `
     };
 
